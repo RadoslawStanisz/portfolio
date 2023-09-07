@@ -8,7 +8,7 @@ import plotly.express as px
 df = pd.read_csv('monitoring_stations_PL.csv')
 
 app = dash.Dash(__name__)
-
+server=app.server
 app.layout = html.Div([
     html.H1('Map of Monitoring Stations'),
 
