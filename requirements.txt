@@ -1,0 +1,7 @@
+dash==2.6.1
+pandas
+plotly==5.10.0
+gunicorn
+Flask==2.1.3
+
+
